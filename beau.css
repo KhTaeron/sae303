@@ -1,0 +1,172 @@
+
+html , body {
+  
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align:justify;
+    margin:0;
+    padding:0;
+    background-color: #182848;
+    color: white;
+    overflow: hidden;
+    }
+
+#contain{
+    display: flex;
+}
+
+
+
+
+/* HEADER ET FORMULAIRE DE DATE */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.form-date{
+    flex: 1;
+    font-size: small;
+    align-items: flex-end;
+    margin-left: 17vw;
+    margin-right: 1vw;
+}
+
+.intro{
+    font-size: smaller;
+}
+/* LES GRAPHIQUES A DROITE */
+
+#right{
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#line{
+    width: 700px;
+    height:400px;
+    
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+}
+
+#right-bottom{
+
+    display: flex;
+    width: 700px;
+}
+#bar-chart-mixed{
+    align-self: flex-start;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-right: 0;
+    max-width: 350px;
+    height: 35vh;
+    margin-bottom: 5vh;
+}
+
+#mixed-chartt{
+    
+    margin-right: 5vw;
+    max-width: 350px;
+    height: 35vh;
+    margin-bottom: 5vh;
+}
+/* STYLE DES NEWS A GAUCHE */
+
+#info {
+    
+    width: 200px;
+   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    border-radius: 5%;
+    
+  }
+
+#contain-info{
+    background-color: #7c8fb5;
+    font-size: small;
+    line-height: 0.2em;
+    margin-top: 5px;
+   
+    padding: 5px;
+    border-radius: 5%;
+    height: 20vh;
+    color: #e9e5e9;
+    
+}
+
+#contain-info h4{
+    font-size: medium;
+    color: white
+}
+
+#contain-info p:first-of-type{
+    color: #7bb4ff; font-size: 1.8em; line-height: 0.5em
+}
+
+#contain-info p:last-of-type{
+    color:#363b74; font-size: 1.4em; line-height: 0.1em
+}
+
+
+/* TOUT CE QUI CONCERNE LES GRAPHS DE GAUCHE */ 
+
+#left{
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+/* DONUTS PART VACCIN AGE */
+#doughnut{
+    margin-top: 10px;
+    max-height:450px;
+    
+}
+
+#doughnut-chart{
+    flex: 0 1 200px;
+}
+
+#tabvide{
+    margin-left: 2vw;
+    flex: 0 1 200px;
+    margin-top: 10px;
+    padding-bottom: 15vh;
+    height:600px;
+}
+.form-vaccin{
+    max-width: 300px;
+    display: flex;
+    justify-content: start;
+}
+
+#formu-vaccin{
+    display: flex;
+    font-size: small;
+    flex-wrap: wrap;
+
+}
+#formu-vaccin label{
+    flex: auto;
+}
+
+/* BARRE DE VACCIN PAR PERSONNE */
+
+#bar-chart{
+    margin-left: 3vw;
+    margin-top: 4vw;
+    max-width: 350px;
+    height: 45vh;
+    
+}
+
